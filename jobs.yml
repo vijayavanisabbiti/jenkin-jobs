@@ -16,5 +16,5 @@
       - { name: "expense-terraform", folder: "expense-project/Infra-Jobs", repo: "https://github.com/vijayavanisabbiti/expense-terraform", filename: "Jenkinsfile" }
       - { name: "golden-ami", folder: "miscellaneous", repo: "https://github.com/vijayavanisabbiti/golden-ami", filename: "Jenkinsfile" }
       - { name: "aws-parameter-store", folder: "miscellaneous", repo: "https://github.com/vijayavanisabbiti/aws_perameter_store", filename: "Jenkinsfile" }
-      - { name: "jenkins-ip-update", folder: "miscellaneous", repo: "https://github.com/vijayavanisabbiti/miscellaneous-tasks", filename: "Jenkinsfile" }
+      - { name: "jenkins-ip-update", folder: "miscellaneous", repo: "https://github.com/vijayavanisabbiti/miscellaneous-tasks", filename: "jenkins-ip-update/Jenkinsfile" }
 
