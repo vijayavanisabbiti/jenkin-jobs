@@ -7,6 +7,11 @@
       - { name: "expense-project" }
       - { name: "expense-project/CI-Jobs" }
       - { name: "expense-project/Infra-Jobs" }
-    jobs: ""
+    multibranch_jobs:
+      - { name: "expense-backend", folder: "expense-project/CI-Jobs", repo: "https://github.com/vijayavanisabbiti/expense-backend" }
+      - { name: "expense-frontend", folder: "expense-project/CI-Jobs", repo: "https://github.com/vijayavanisabbiti/expense-frontend" }
+    singlebranch_jobs:
+      - { name: "expense-ansible", folder: "expense-project/Infra-Jobs", repo: "https://github.com/vijayavanisabbiti/expense-ansible" }
+      - { name: "expense-terraform", folder: "expense-project/Infra-Jobs", repo: "https://github.com/vijayavanisabbiti/expense-terraform" }
 
 
