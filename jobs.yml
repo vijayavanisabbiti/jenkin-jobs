@@ -7,11 +7,14 @@
       - { name: "expense-project" }
       - { name: "expense-project/CI-Jobs" }
       - { name: "expense-project/Infra-Jobs" }
+      - { name: "miscellaneous" }
     multibranch_jobs:
       - { name: "expense-backend", folder: "expense-project/CI-Jobs", repo: "https://github.com/vijayavanisabbiti/expense-backend", filename: "Jenkinsfile" }
       - { name: "expense-frontend", folder: "expense-project/CI-Jobs", repo: "https://github.com/vijayavanisabbiti/expense-frontend", filename: "Jenkinsfile" }
     singlebranch_jobs:
       - { name: "expense-ansible", folder: "expense-project/Infra-Jobs", repo: "https://github.com/vijayavanisabbiti/expense-ansible", filename: "Jenkinsfile" }
       - { name: "expense-terraform", folder: "expense-project/Infra-Jobs", repo: "https://github.com/vijayavanisabbiti/expense-terraform", filename: "Jenkinsfile" }
+      - { name: "golden-ami", folder: "miscellaneous", repo: "https://github.com/vijayavanisabbiti/golden-ami", filename: "Jenkinsfile" }
+      - { name: "aws-parameter-store", folder: "miscellaneous", repo: "https://github.com/vijayavanisabbiti/aws_perameter_store", filename: "Jenkinsfile" }
 
 
