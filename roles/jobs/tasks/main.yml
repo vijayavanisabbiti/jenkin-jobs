@@ -9,7 +9,7 @@
 
 - name: Create Multi Branch Pipelines
   community.general.jenkins_job:
-    config: "{{ lookup('template', 'templates/multibranchjobjob.xml') }}"
+    config: "{{ lookup('template', 'templates/multibranchjob.xml') }}"
     name: "{{item.folder}}/{{item.name}}"
     password: IluMachre@123
     url: http://54.234.132.221:8080
