@@ -26,7 +26,7 @@
                     <apiUri>https://api.github.com</apiUri>
                     <credentialsId>vijayavani</credentialsId>
                     <repoOwner>vijayavanisabbiti</repoOwner>
-                    <repository>expense-backend</repository>
+                    <repository>{{item.name}}</repository>
                     <repositoryUrl>{{item.repo}}</repositoryUrl>
                     <traits>
                         <org.jenkinsci.plugins.github__branch__source.BranchDiscoveryTrait>
